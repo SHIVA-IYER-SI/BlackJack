@@ -1,0 +1,50 @@
+.container-5{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+
+.flex-blackjack-row-1, .flex-blackjack-row-2, .row-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid black;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    flex: 1 1 auto;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    background-image: url('lol1.jpg') ;
+    color: #ffffff;
+    display: flex;
+}
+
+.flex-blackjack-row-1 div{
+    border: 1px solid black;
+    padding: 10px;
+    height: 350px;
+    flex: 1;
+}
+
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button{
+    border: 1px solid black;
+    
+}
+
+table,th,td{
+    padding: 10px;
+    border: black solid 1px;
+}
